@@ -1,0 +1,124 @@
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    color: #ffffff;
+}
+button:hover{
+    background-color: #3b3b3b;
+}
+
+/* ---------------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+nav ul li{
+    display: inline;
+    font-size: 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(63, 0, 0);
+}
+
+
+body {
+    background-image: url(/images/abstract-turing-pattern-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1 {
+    margin-top: 0.5em;
+    padding: 0.4em;
+    background-color: rgba(128, 128, 128, 0.87);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    font-size: 4em;
+    color: rgb(32, 32, 32);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.logo{
+    width: 13em;
+    border-radius: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    background-color: rgba(170, 170, 170, 0.705);
+    padding: 0.5em;
+    width: 50em;
+
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin-top: 1em;
+}
+.first_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 5em;
+    background-color: rgba(170, 170, 170, 0.705);
+    padding: 3em;
+}
+
+.presentation{
+    background-color: rgba(170, 170, 170, 0.877);
+    padding : 1em;
+    margin: 5em;
+}
+
+.benevoles{
+    width: 38em;
+    border-style: inset;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 3) ;
+}
+.stretch{
+    width: 50em;
+    border-style: inset;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 3) ;
+}
+.secondSection{
+    width: 90%;
+    height: 500px;
+    margin: 5%;
+    background : linear-gradient(90deg, #8360c3, #2ebf91);
+    border-radius: 32% 32% 27% 30% / 7% 4% 8% 7% ;
+    opacity: 0.8;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 10px #eeff00 dotted;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 3) ;
+}
+.boutons{
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 3) ;
+    border-radius: 32% 32% 27% 30% / 7% 4% 8% 7% ;
+    width: 100px;
+    height: 50px;
+    background-color: #919191;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

@@ -16,17 +16,28 @@
         <div class="header">
             <div><img class="logo" src="images/LOGO_noir.png" alt="rideau"></div>
             <h1 id="encre">FluOrganik Crew</h1>
-            <div>
+            <div class="desktopMenu">
                 <nav>
-                    <ul>
-                        <li><button class="boutons"><a href="#">Acceuil</a></button></li>
-                        <li><button class="boutons"><a href="nav/Service.html">Service</a></button></li>
-                        <li><button class="boutons"><a href="nav/Contact.html">Contact</a></button></li>
+                    <ul class="ulMenu">
+                        <li class="listMenu"><button class="boutons"><a class="linkMenu" href="#">Acceuil</a></button></li>
+                        <li class="listMenu"><button class="boutons"><a class="linkMenu" href="nav/Service.html">Service</a></button></li>
+                        <li class="listMenu"><button class="boutons"><a class="linkMenu" href="nav/Contact.html">Contact</a></button></li>
                     </ul>
                 </nav>
             </div>
-
         </div>
+        <div class="menuBurgerMobil">
+            <input type="checkbox" id="menuBurger">
+            <label id="hamburgerLogo" for="menuBurger"><span class="spanBurger">SUPER BURGER</span>☰</label>
+            <nav class="navBurger">
+                <ul class="ulBurger">
+                    <li class="acceuil" class="burgerLi"><a class="burgerLink"  href="#"><button class="boutons">Acceuil</button></a></li>
+                    <li class="burgerLi"><a class="burgerLink" href="nav/Service.html"><button class="boutons">Service</button></a></li>
+                    <li class="burgerLi"><a class="burgerLink" href="nav/Contact.html"><button class="boutons">Contact</button></a></li>
+                </ul>
+            </nav>
+        </div>
+        
     </header>
 
 <!----------------------------MAIN------------------------->
@@ -116,6 +127,54 @@
                     <td>blablabla</td>
                 </tr>
             </table>
+        </section>
+        <section>
+            <p>Création formulaire</p>
+            <form method="get" action="">
+               <p>
+                    <label for="prenom"> Votre prénom :</label><input type="text" name="prenom" id="prenom" size="30" placeholder="Votre prénom" maxlength="20">
+               </p>
+               <p>
+                    Coche la case mamen <br>
+                    <input type="checkbox" name="frites" id="frites"> <label for="frites">Frites</label> <br>
+                    <input type="checkbox" name="steak" id="steak"> <label for="steak">Steak</label> <br>
+                    <input type="checkbox" name="salade" id="salade"> <label for="salade">Salade</label> <br>
+               </p>
+               <p>
+                    Veuillez indiquer votre tranche d'âge : <br>
+                
+                    <input type="radio" name="age" value="moins15" id="moins15"><label for="moins15">Moins de 15 ans</label><br>
+                    <input type="radio" name="age" value="medium15-25" id="medium15-25" checked="checked" ><label for="medium15-25">15-25 ans</label><br>
+                    <input type="radio" name="age" value="medium25-40" id="medium25-40"><label for="medium25-40">25-40 ans</label><br>
+                    <input type="radio" name="age" value="plus40" id="plus40"><label for="plus40">40 ans et plus</label><br>
+               </p>
+               <form method="get" action="">
+                    <p>
+                        <label for="pays">De quel pays venez vous?</label><br>
+                        <select name="pays" id="pays">
+                            <option value="senegal">Sénégal</option>
+                            <option value="maroc">Maroc</option>
+                            <option value="france">France</option>
+                        </select>
+                    </p>
+                    <fieldset>
+                        <legend>Vos coordonnées</legend>
+                        <label for="nom">Quel est votre nom ?</label>
+                        <input type="text" name="nom" id="nom">
+                        <label for="prenom">Quel est votre prénom ?</label>
+                        <input type="text" name="prenom" id="prenom" required> 
+                        <label for="mail">Quel est votre e-mail ?</label> 
+                        <input type="email" name="email" id="email">                
+                    </fieldset>
+                    <p>Quel somptueux formulaire !</p>
+                    <input type="submit" value="Envoyer le form">
+               </form>
+            <section class="funnyContainerOne">
+                <p class="funnyOne">Imane</p><br>
+            </section>
+               
+                
+            </form>
         </section>
     </main>
 
